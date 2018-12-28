@@ -1,0 +1,8 @@
+
+/* All custom styles come here. */
+/* Custom styles refer to styles that are not applied in `general.css`. */
+/* These styles are supposed to be (user and page)-specific ,like colors etc. */
+
+footer {
+	text-align: center;
+}

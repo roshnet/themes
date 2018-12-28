@@ -1,0 +1,129 @@
+/* Standard Configurations */
+
+html {
+	/* Regular text size */
+	font-size: 14px;
+	cursor: default;
+	font-family: monospace;
+}
+#fluid-container {
+	max-width: 1080px;
+	min-width: 320px;
+	margin-left: -2px;
+	margin-right: 0px;
+	padding: 2px 2px;
+}
+
+.header-1 {
+	/* Add text-align:<>; to align */
+	font-size: 150%;
+	color: #ffffff;
+	background-color: #000000;
+	color: silver;
+	opacity: 0.9;
+	padding: 3%;
+	padding-left: 2%;
+	font-family: montserrat monospace;
+	box-shadow: -5px 5px 3px 1px rgba(10,10,10, 0.4);
+}
+
+.sec-heading {
+	text-align: center;
+}
+
+.navbar ul {
+	text-align: center;
+	padding: 1% 1%;
+}
+.navbar > ul > a {
+	text-align: center;
+}
+.navbar > ul > a > li {
+	display: inline;
+	padding: .5% 2%;
+	background-color: transparent;
+}
+.navbar ul > a > li:hover {
+	/* Use JS to handle onMouseOut event. */
+	background-color: #000000;
+	color: #ffffffaa;
+	font-weight: lighter;
+	transition: .4s;
+}
+
+
+.content-heading {
+	font-size: 170%;
+}
+
+
+
+
+
+/* Additional Configurations */
+
+.magnify {
+	/* USE: inline text only. */
+	font-size: 150%;
+}
+.compress {
+	/* USE: inline text only. */
+	letter-spacing: -2px;
+}
+
+
+.spacify-vertical {
+	/* USE: any div-like element. */
+	margin-top: 10%;
+	margin-bottom: 10%;
+	/* WARNING: Reduce "10%" to lower on large screens. */
+}
+.spacify-top {
+	/* USE: Usually on first instances. */
+	margin-top: 10%;
+}
+.spacify-bottom {
+	/* USE: Usually on last instances. */
+	margin-bottom: 10%;
+}
+
+
+.beautify-text {
+	/* USE: Paragraphs, card-effects. */
+	font-size: 110%;
+	word-spacing: 3px;
+	line-height: 150%;
+	padding: 3%;
+	font-family: verdana helvetica;
+	box-shadow: -3px 3px 5px 1px silver;
+}
+
+
+
+/* Optional Configurations */
+a {
+	text-decoration: none;
+	cursor: default;
+}
+
+
+
+/* Screen Adjustment Configurations */
+@media all and (min-width: 420px){
+	html {
+		font-size: 18px;
+	}
+}
+
+@media all and (min-width: 580px){
+	.spacify-vertical {
+		margin-bottom: 8%;
+		margin-top: 8%;
+	}
+	.spacify-bottom {
+		margin-bottom: 8%;
+	}
+	.spacify-top {
+		margin-top: 8%;
+	}
+}

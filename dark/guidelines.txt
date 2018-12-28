@@ -1,0 +1,7 @@
+
+THE header-n CLASSES:
+	Represent {<h1>,<h2>,..} as {.header-1, .header-2, ..}
+
+THE .navbar CLASS:
+	Assumes that ".navbar > ul > a > li" is followed.
+	`display: inline;` is applied to the `li` element.
